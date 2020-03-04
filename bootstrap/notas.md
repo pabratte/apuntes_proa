@@ -57,11 +57,33 @@ https://2.bp.blogspot.com/-LBJ4xM50470/Ut-krz0qCGI/AAAAAAAAFe0/y9La2HgrwpA/s1600
 </html>
 ```
 
-
-
-
-
-
 ## Elementos
 
 ## El sistema de grilla
+```
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
+
+El sistema de grilla consta de 3 elementos:
+* container
+* rows
+* cols
+
+Reglas:
+
+* El contenido debe ir dentro de las columnas (col)
+* Dentro de las filas (row) sólo puede haber columnas (col)
+
+
