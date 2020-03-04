@@ -1,3 +1,5 @@
+# Ejercicios de Repaso
+
 ## Ejercicio 1
 
 Franco está organizando un asado con sus amigos y necesita de tu ayuda. Para estimar cuánta carne comprar, va a suponer que cada invitado come 0.7 Kg de carne. Escribí un programa que, conociendo la cantidad de invitados y el precio de 1Kg. de carne, ayude a Franco a saber cuántos Kg de carne debe pedir al carnicero y cuánto dinero le va a salir.
@@ -11,15 +13,15 @@ Se desea diseñar un algoritmo que escriba en pantalla los nombres de los días 
 ## Ejercicio 3
 
 Escriba un algoritmo que permita al usuario ingresar 2 valores numéricos y seguidamente muestre un menú como el siguiente:
-
-suma
-resta
-multiplicacion
-division
+```
+1. suma
+2. resta
+3. multiplicacion
+4. division
 
 Ingrese una opcion:
-
-El programa debe realizar la operación elegida por el usuario con los valores numéricos ingresados y mostrar el resultado. En caso de que el usuario ingrese una opción inválida se debe advertir tal situación con un mensaje de error.
+```
+El programa debe realizar la operación elegida por el usuario con los valores numéricos ingresados y mostrar el resultado. En caso de que el usuario ingrese una opción inválida se debe advertir tal situación con un mensaje de error. Luego de mostrar el resultado el programa finalizará.
 
 
 ## Ejercicio 4
