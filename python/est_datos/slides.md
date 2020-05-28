@@ -454,4 +454,20 @@ racional1 = {
 
 ```
 
-Escriba un programa que permita al usuario ingresar 2 valores **racionales (numerador y denominador)** y los **almacene en diccionarios**. Luego el programa debe **calcular y mostrar la suma** de las 2 fracciones.
+Escriba un programa que permita al usuario ingresar 2 valores **racionales (numerador y denominador)** y los **almacene en diccionarios**. Luego el programa debe **calcular y mostrar la multiplicación** de las 2 fracciones.
+
+---
+
+# Diccionarios
+
+## Ejercicio #3
+
+Recordar que, para multiplicar dos racionales, el numerador se multiplica con el numerador y el denominador con el denominador, es decir:
+<div style="text-align: center;">
+<img src="img/hqdefault.jpg" style="width: 50%;">
+</div>
+en código:
+```python
+resultado["num"] = racional1["num"] * racional2["num"]
+resultado["den"] = racional1["den"] * racional2["den"]
+```
