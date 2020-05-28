@@ -250,4 +250,208 @@ print("El total de botellas juntadas es {}".format(total_botellas))
 Escriba un programa en Python que cree una lista vacía y le agregue 10 valores enteros ingresados por el usuario. Luego, el programa debe mostrar la lista. Finalmente el programa debe recorrer la lista y mostrar la cantidad de valores ingresados que resultaron mayores a 100.
 
 
+---
 
+# Diccionario
+
+* Colección de pares **clave -> valor**.
+* No hay un orden entre los elementos (no se puede establecer/no es importante).
+* La clave siempre es de tipo string.
+* El valor puede ser de cualquier tipo.
+* Los elementos son accedidos en base a su **nombre de clave**.
+* Ejemplo: un diccionario.
+
+---
+
+# Diccionario
+
+
+.left-column50[
+
+## Ejemplo
+
+```python
+player1 = {
+  "name": "Sylvan",
+  "level": 1,
+  "attack": 160,
+  "max-hp": 600,
+}
+
+
+# mostrar poder de ataque de player 1
+print(player1["attack"])
+```
+]
+
+.right-column50[
+<div style="text-align:center;">
+<img src="img/Arc.jpg" style="width: 90%;">
+</div>
+]
+
+---
+
+# Lista vs Diccionario
+
+.left-column50[
+
+## Lista
+* Orden secuencial de los elementos
+* Generalmente se recorre toda la lista elemento por elemento
+* Los valores se acceden por su **posición** 
+* Los valores, generalmente, son del **mismo tipo**
+
+
+*Pensar el uso de la lista como una **novela**: se debe leer capítulo por capítulo en orden*
+]
+
+.right-column50[
+## Diccionario
+* No importa el orden
+* Se busca un elemento particular conociendo su clave
+* Los valores se acceden por su **nombre de clave**
+* Los valores, generalmente, son de **tipos distintos**
+
+*Pensar el uso del diccionario como un **diccionario**: no se lee todo, sólo se busca una palabra*
+]
+
+---
+
+# Diccionario
+
+## ¿Qué se puede hacer con un diccionario?
+
+* Inicializar/crear
+* Acceder a un elemento especificando su clave
+* Conocer si un valor clave está presente en el diccionario
+* Agregar/modificar un elemento especificando su clave y valor
+
+
+---
+
+# Diccionario
+
+## Inicializar
+
+```python
+player1 = {
+  "name": "Sylvan",
+  "level": 1,
+  "attack": 160,
+  "max-hp": 600,
+}
+
+edades = {"Santiago": 17, "Mercedes": 14, "Lautaro": 14}
+```
+
+---
+
+# Diccionario
+
+## Acceder a un elemento dada su clave
+
+Se accede al *valor* de un elemento especificando entre corchetes [] su *clave*
+
+```python
+edades = {"Santiago": 17, "Mercedes": 14, "Lautaro": 14}
+
+print(edades["Mercedes"])
+
+
+print(edades["Juan"]) # explota todo
+
+```
+
+* Si la clave no existe el interprete lanza un **KeyError**
+* **¡OJO!** la clave **siempre debe ser un string**
+* **¡OJO!** las claves son **case-sensitive** (distinguen mayúsculas y minúsculas)
+
+---
+
+# Diccionarios
+
+## Saber si un elemento existe dentro de un diccionario
+
+Se puede utilizar el operador **in**
+
+```python
+edades = {"Santiago": 17, "Mercedes": 14, "Lautaro": 14}
+
+nombre = input()
+
+if nombre in edades:
+  print(edades[nombre])
+else:
+  print("{} no se encuentra en el diccionario".format(nombre))
+```
+
+---
+
+
+# Diccionarios
+
+## Agregar/modificar un elemento especificando su clave y valor
+
+
+```python
+player1 = {
+  "name": "Sylvan",
+  "level": 1,
+  "attack": 160,
+  "max-hp": 600,
+}
+
+# si la clave existe, se modifica su valor
+player1["attack"] = 200
+
+# si la clave no existe, se agrega
+player1["speed"] = 100
+
+print(player1)
+```
+
+---
+
+# Diccionarios
+
+## Ejercicio #1
+
+Elija un dispositivo tecnológico, por ejemplo, su celular, PC, Smart-TV, etc. Utilice un diccionario para representarlo proponiendo los atributos (claves) que usted considere. Tenga en cuenta lo siguiente:
+* Debería tener al menos 3 claves
+* Debería utilizar al menos 2 tipos de datos distintos para sus valores
+
+
+---
+
+# Diccionarios
+
+## Ejercicio #2
+
+Teniendo en cuenta el siguiente diccionario:
+
+```python
+alumno1 = {
+  "nombre": "Sandra",
+  "edad": 15,
+}
+```
+
+Escriba un programa que permita crear otro diccionario, con la misma estructura, con datos ingresados por el usuario. Luego el programa debe mostrar el nombre del alumno cuya edad es mayor.
+
+---
+
+# Diccionarios
+
+## Ejercicio #3
+
+Un número racional (numerador y denominador) se puede representar mediante un diccionario. Por ejemplo, el siguiente diccionario se utiliza para representar el racional con numerador = 1 y denominador = 2:
+```python
+racional1 = {
+  "num": 1,
+  "den": 2,
+}
+
+```
+
+Escriba un programa que permita al usuario ingresar 2 valores **racionales (numerador y denominador)** y los **almacene en diccionarios**. Luego el programa debe **calcular y mostrar la suma** de las 2 fracciones.
