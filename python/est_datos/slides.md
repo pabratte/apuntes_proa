@@ -344,14 +344,17 @@ player1 = {
 
 edades = {"Santiago": 17, "Mercedes": 14, "Lautaro": 14}
 ```
-
+* Todos los pares clave => valor van encerrados entre **{}**
+* Los pares clave => valor van separados entre sí por **,**
+* La clave siempre debe ser de tipo **string**
+* El valor va separado de la clave por **:**
 ---
 
 # Diccionario
 
 ## Acceder a un elemento dada su clave
 
-Se accede al *valor* de un elemento especificando entre corchetes [] su *clave*
+Se accede al *valor* de un elemento especificando su **clave** entre **[]**
 
 ```python
 edades = {"Santiago": 17, "Mercedes": 14, "Lautaro": 14}
@@ -386,13 +389,15 @@ else:
   print("{} no se encuentra en el diccionario".format(nombre))
 ```
 
+* A la izquierda del operador **in** va el *elemento*
+* A la derecha del operador **in** va la *colección*
+* El operador **in** devuelve **True** si *elemento* se encuentra *dentro* de *colección*, **False** de lo contrario
 ---
 
 
 # Diccionarios
 
-## Agregar/modificar un elemento especificando su clave y valor
-
+## Agregar/modificar un elemento
 
 ```python
 player1 = {
@@ -410,6 +415,12 @@ player1["speed"] = 100
 
 print(player1)
 ```
+
+* **¡OJO!** El diccionario no se comporta igual si tratamos de leer un valor que si tratamos de escribirlo
+	- Al leer, puede ocurrir *KeyError* si la clave no existe
+	- Al asignar o escribir:
+		- Si el valor **existe** se **modifica**
+		- Si el valor **no existe** se **crea**
 
 ---
 
