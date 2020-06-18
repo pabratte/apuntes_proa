@@ -180,8 +180,11 @@ Annabelle: Creation 2017-08-03 25.554
 Obtener los siguientes resultados (puede ser todo en un mismo archivo o archivos separados)
 
 1. Listar los **títulos** (title) de las películas que coincidan con un *término de búsqueda ingresado por el usuario*.
-2. Mostrar **título** y **cantidad de votos** (vote_count) *sólo para el primer resultado* de la búsqueda de *películas de Harry Potter*.
-3. Mostrar la *cantidad* total de resultados de la búsqueda con el término *the avengers*.
-4. Mostrar **fecha de lanzamiento** (release_date), **puntaje promedio** (vote_average) y **título** (title) de las *películas de Transformers* cuyo *puntaje promedio sea mayor o igual a 6.5*.
-5. Mostrar el **resumen** (overview) de la pelicula *Matrix Revolutions* (cuidado con la cantidad de resultados).
-6. Mostrar el **título** (title) de la película con **puntaje promedio** (vote_average) **más alto** correspondiente a la saga "Hunger Games" (Los Juegos del Hambre).
+
+2. Mostrar **título** y **cantidad de votos** (vote_count) *sólo para el primer resultado* de la búsqueda de películas de *"Harry Potter"*.
+
+3. Mostrar **fecha de lanzamiento** (release_date), **puntaje promedio** (vote_average) y **título** (title) de las *películas de Transformers* cuyo *puntaje promedio sea mayor o igual a 6.5*.
+
+4. Mostrar el **resumen** (overview) de la pelicula *Matrix Revolutions* (cuidado con la cantidad de resultados).
+
+5. Mostrar el **título** (title) de la película con **puntaje promedio** (vote_average) **más alto** correspondiente a la saga "Hunger Games" (Los Juegos del Hambre).
