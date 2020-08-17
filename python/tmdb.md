@@ -34,7 +34,9 @@ layout: true
 ---
 
 
-## Instalar bibliotecas en Python
+## Instalar biblioteca tmdbsimple en Python
+
+### Opción 1 (aparentemente funciona sólo en Linux)
 
 Utilizamos el gestor de paquetes de Python: pip
 
@@ -48,6 +50,28 @@ Utilizamos el gestor de paquetes de Python: pip
 ```
 pip install tmdbsimple
 ```
+
+---
+
+## Instalar biblioteca tmdbsimple en Python
+
+### Opción 2
+
+Bajar Mu portable con la biblioteca ya instalada desde:
+[https://mega.nz/file/iYFURSjC#7uvyt3Z7CP2-Idvu0zwb5yTNaNXQx5yfmD_Plv5gS_I](https://mega.nz/file/iYFURSjC#7uvyt3Z7CP2-Idvu0zwb5yTNaNXQx5yfmD_Plv5gS_I)
+
+
+
+---
+
+## Instalar biblioteca tmdbsimple en Python
+
+### Opción 3 
+
+Instrucciones para **instalar la biblioteca manualmente** en su copia de Mu:
+[https://www.loom.com/share/7b051d51859f4f69b88757d150516c02](https://www.loom.com/share/7b051d51859f4f69b88757d150516c02)
+
+
 
 ---
 
