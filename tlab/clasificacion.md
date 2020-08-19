@@ -95,7 +95,7 @@ for(int cont = 0; cont<10; cont++){
 		cont_menores++;
 	}
 }
-cout<<"La cantidad de mayores de 18 es: "<<endl;
+cout<<"La cantidad de mayores de 18 es: "<<cont_mayores<<endl;
 ```
 
 ---
@@ -140,16 +140,6 @@ Escriba un programa que solicite al usuario ingresar 10 valores numéricos y mue
 
 En una fábrica de tornillos, una de las máquinas que los fabrica a veces tiene errores y produce tornillos más largos o más cortos de lo deseado. Se sabe que, para ser considerados como una pieza válida, los tornillos deben tener un largo que puede variar entre los **9.1cm y 13.4cm**. Se necesita escribir un programa para el **control de calidad** de la producción de tornillos.
 El programa debe recibir como entrada la longitud de **20 tornillos** e informar **cuántos de ellos pasaron el control de calidad** (es decir, su largo estuvo dentro del rango correcto) y pueden comercializarse.
-
-### Ejercicio 3 (sigue)
----
-
-## Ejercicios
-
-
-### Ejercicio 3
-
-Un grupo de personas acaba de tomar un examen para obtener su carnet de conductor. El examen lleva una calificación entre 1 y 10 y se aprueba con una nota de 7 o más. Se necesita crear un programa para calcular el **porcentaje de aprobados** entre las 12 personas que tomaron el examen. Para ello se leen como datos el nombre y calificación de cada una. El programa debe calcular e informar el porcentaje de personas que aprobaron.
 
 
 
