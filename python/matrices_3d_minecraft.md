@@ -153,7 +153,7 @@ for i in range(10):
 1. Crear una **torre**, es decir una sucesión de no menos de 10 bloques apilados verticalmente (en el eje Y). **Deben utilizar bucles**. 
 Puede ser de un solo bloque de ancho como en el ejemplo o de más. Pueden agregar otros detalles. Sean creativos!
 
-2. Crear una **torre**, es decir una sucesión de no menos de 20 bloques apilados horizontalmente (en X o en Y). **Deben utilizar bucles**. **Deben utilizar el puente para superar algún obstáculo del escenario** 
+2. Crear una **puente**, es decir una sucesión de no menos de 20 bloques apilados horizontalmente (en X o en Z). **Deben utilizar bucles**. **Deben utilizar el puente para superar algún obstáculo del escenario** 
 Puede ser de un solo bloque de ancho o de más. Pueden agregar otros detalles. Sean creativos!
 
 3. 2. Crear una **escalera**, es decir una sucesión bloques en zig-zag que permitan al jugador subir. **Deben utilizar bucles**. **Deben utilizar la escalera para superar algún obstáculo del escenario** 
