@@ -220,6 +220,7 @@ $("#demo").click(function() {
 * Cada botón debe representar un color diferente
 * Al hacer clic en cada botón, el div debe tomar el color de fondo que indica el botón
 
+
 **OPCIONAL**
 * Definir, mediante CSS, 3 clases de estilo diferente (color de tipografía, de fondo, tipo y color de borde, fuente, etc.)
 * Cada botón, al hacerle clic, debe aplicar una de estas clases al div (utilizar addClass(), removeClass() o toggleClass())
@@ -227,32 +228,41 @@ $("#demo").click(function() {
 
 ---
 
+# Manipular contenido
 
-# ...
+Manipular el contenido de un elemento:
 
-## Contenido
+* html: (setter o getter) acceder o manipular el contenido como **html**
+* text: (setter o getter) acceder manipular el contenido como **texto**
+* val: (setter o getter) acceder manipular los **valores** de los **campos de formularios** (input, select, textarea, etc) 
 
-html y text son para los que tienen contenido, val para los que tienen un valor
-
-html: 
-text:
-val: para los form fiekds (input, select, textarea, etc)
-
-
-
+---
 
 # Manipular contenido
 
-append() inserts content at the end of the selected elements.
-prepend() inserts content at the beginning of the selected elements.
-after() inserts content after the selected elements.
-before() inserts content before the selected elements.
+Crear nuevo elemento
 
-# Manipular el DOM
+```
+var nuevo = $("<p>Soy un párrafo</p>")
+```
+---
+
+# Insertar un elemento
+
+* append(): inserta el nuevo elemento, **dentro de un elemento**, **al final del mismo**
+* prepend(): inserta el nuevo elemento, **dentro de un elemento**, **al principio del mismo**
+* after(): inserta el nuevo elemento, **después de un elemento**
+* before(): inserta el nuevo elemento, **antes de un elemento**
 
 
 
-otra notación:
+
+
+
+
+
+
+---
 
 
 # Eventos
@@ -277,14 +287,3 @@ Document Events:
 ready occurs when the DOM has been loaded.
 resize occurs when the browser window changes size.
 scroll occurs when the user scrolls in the specified element.
-
-
----
-
-
-Botones para cambiar el atributo src de una imagen (opcional, carrousel????)
-Un cuadro, varios botones que apliquen estilos diferentes (o clases)
-Ideas ejercicios, crear un elemento, crear una clase y el botón hace toggle de la clase (o 3 botones)
-
-
-
