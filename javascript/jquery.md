@@ -251,18 +251,19 @@ var nuevo = $("<p>Soy un párrafo</p>")
 
 * append(): inserta el nuevo elemento, **dentro de un elemento**, **al final del mismo**
 * prepend(): inserta el nuevo elemento, **dentro de un elemento**, **al principio del mismo**
-* after(): inserta el nuevo elemento, **después de un elemento**
 * before(): inserta el nuevo elemento, **antes de un elemento**
+* after(): inserta el nuevo elemento, **después de un elemento**
 
 
-
-
-
-
-
-
+<div style="text-align:center;">
+<img src="https://i.stack.imgur.com/GWmap.png">
+</div>
 
 ---
+
+# Ejemplo: lista de compras
+
+
 
 
 # Eventos
