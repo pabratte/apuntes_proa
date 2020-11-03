@@ -1,6 +1,5 @@
 class: center, middle, inverse, layout
 # Arte generativo con Python
-## Programación I
 
 ---
 
