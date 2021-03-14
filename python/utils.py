@@ -1,28 +1,81 @@
 import turtle
-from PIL import Image
-import io
-import os
 
-def cuadrado(x, y, angulo, tam, color):
-    # resetear el angulo y girar el indicado por el usuario
-    turtle.setheading(0)
-    turtle.left(angulo)
-    # mover a la posicion
-    turtle.penup()
-    turtle.goto(x, y)
-    turtle.pendown()
-    # dibujar el cuadrado
-    turtle.pencolor(color)
-    for i in range(4):
-        turtle.forward(tam)
-        turtle.left(90)
+def piernai():
+    turtle.forward(50)
 
-def guardar_imagen(nombre):
-    turtle.hideturtle()
-    cv = turtle.getcanvas()
-    ps = cv.postscript(colormode='color')
-    im = Image.open(io.BytesIO(ps.encode('utf-8')))
-    filename = "{}/{}.png".format(os.path.dirname(os.path.abspath(__file__)), nombre)
-    im.save(filename)
-    print("Imagen guardada en: {}".format(filename))
-    turtle.showturtle()
+def cuerpo():
+    turtle.left(90)
+    turtle.forward(80)
+    turtle.left(180)
+    turtle.forward(170)
+    turtle.left(180)
+    turtle.forward(90)
+
+def piernad():
+    turtle.left(-90)
+    turtle.forward(50)
+    turtle.left(180)
+    turtle.forward(50)
+    turtle.left(-90)
+    turtle.forward(80)
+
+
+def brazod():
+    turtle.left(180)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(-90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(-90)
+
+
+def atras():
+    turtle.left(-90)
+    turtle.forward(30)
+    turtle.left(-90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+
+
+def brazoi():
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(-90)
+    turtle.forward(30)
+
+
+def atras():
+    turtle.left(180)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(-90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+
+def cabeza():
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.left(90)
+
+def muñeco():
+    piernai()
+    cuerpo()
+    piernad()
+    brazod()
+    atras()
+    brazoi()
+    atras()
+    cabeza()
+muñeco()
