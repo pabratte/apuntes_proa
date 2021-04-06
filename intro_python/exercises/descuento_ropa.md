@@ -1,0 +1,3 @@
+## Descuento en la tienda de ropa
+
+La tienda de ropa Kivengston está ofreciendo una liquidación de prendas por final de temporada, así que nos dirigimos allí para aprovechar la oferta. En la etiqueta de cada prenda figura su precio de lista (por ejemplo: $1550) y su descuento (por ejemplo: 20%). Necesitamos escribir un programa que, a partir de esos datos, nos informe cuál sería el precio que deberíamos pagar por una determinada prenda. Por ejemplo: si el precio de lista de un pantalón es de $520 y tiene un descuento del 28%, deberíamos abonar por él un total de $374.4, ya que el precio de lista es $520 y el descuento (en pesos, no en %) es 520*28/100=$145, por lo que con descuento incluído el pantalón costaría $520-$145=$374.
