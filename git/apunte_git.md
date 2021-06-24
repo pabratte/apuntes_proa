@@ -90,5 +90,44 @@ Cada commit debe ir acompañado de un mensaje corto que describa en qué consist
 
 ### 8. Enviando los cambios a un servidor remoto
 
+Hasta el momento todos cambios que realizamos son locales. Es decir, los commits realizados en el repositorio sólo se encuentran almacenados en nuestra computadora.
+
+Enviarlos a un repositorio remoto (operación que se conoce como `push`) nos permite resguardar una copia nuestro trabajo y compartirlo con otros.
+
+Como metáfora, podemos pensar en los `push` como si juntaramos todas las cajas cerradas y etiquetadas de nuestros cambios y las subieramos a un camión de delivery para entregarlas en otro lado.  
+
 <img src="https://miro.medium.com/max/700/1*vkurnqLuLSWTuLok2rT07w.jpeg" style="width: 40%; border: 1px solid #999; border-radius: 2px;">
 
+Para enviar nuestros cambios a un repositorio remoto, primero necesitamos uno. [GitHub](https://github.com) es un servicio que nos permite almacenar nuestros repositorios en la nube y trabajar de manera conjunta con otros programadores, además de muchas más funcionalidades extra.
+
+Una vez que tengamos una cuenta en GitHub podemos crear un nuevo repositorio utilizando el menú en la esquina superior derecha:
+
+<img src="img/new_repo.jpg" style="width: 30%; border: 1px solid #999; border-radius: 2px;">
+
+Una vez que hayamos creado nuestro repositorio, el mismo estará vacío. Github nos mostrará una ayuda con los comandos que debemos ejecutar para enlazar nuestro proyecto local con GitHub. Los comandos son los siguientes:
+
+```
+git remote add origin git@github.com:pabratte/repositorio-de-prueba.git
+```
+
+Nuestro repositorio local puede tener referencias a múltiples repositorios remotos, por lo que debemos asignar un nombre para cada repositorio remoto que configuremos. El comando anterior sirve para gestionar los repositorios remotos (`git remote`) agregando (`add`) un nuevo repositorio remoto con el nombre `origin` cuya URL es `git@github.com:pabratte/repositorio-de-prueba.git` (éste último parámetro es proporcionado por GitHub y puede variar).
+
+Agregar un nuevo repositorio remoto es una operación que **se debe realizar por única vez**.
+
+El segundo comando es el siguiente:
+
+```
+git branch -M main
+```
+
+El comando crea una rama llamada `main`. Todos los commits que hacemos están englobados dentro de alguna rama. Si no existe ninguna rama debemos crear una.
+
+Crear una nueva rama es una operación que **se debe realizar por única vez**.
+
+Finalmente, el último comando, y el que realmente envía los cambios al servidor, es el siguiente:
+
+```
+git push origin main
+```
+
+El comando realiza un push de **todos** los commits realizados hasta el momento hacia la rama `main` del repositorio remoto al que nombramos `origin`.
