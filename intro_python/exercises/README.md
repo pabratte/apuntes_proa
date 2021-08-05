@@ -8,3 +8,9 @@
 * [Asado](asado.md)
 * [Descuento en la tienda de ropa](descuento_ropa.md)
 * [Paseo en moto](paseo_moto.md)
+* [Descuento en el supermerdado](descuento_supermercado.md)
+* [Receta para pizza](receta_para_pizza.md)
+* [Máquina de helado](maquina_de_helado.md)
+* [Aprobado o desaprobado](aprobado_o_desaprobado.md)
+* [Club deportivo](club_deportivo.md)
+
