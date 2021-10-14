@@ -5,7 +5,7 @@ La directiva **v-for** permite recorrer una lista y renderizar elementos o compo
 ```html
 <template>
   <ul>
-  	<li v-for="i in items">{{i}}<li>
+  	<li v-for="i in items" :key="i">{{i}}<li>
   </ul>
 </template>
 
@@ -20,6 +20,8 @@ export default {
 }
 </script>
 ```
+
+**IMPORTANTE**: notar que cuando se utiliza **v-for** es necesario incluir el atributo **key** (con :key o v-key). El mismo sirve para especificar un identificador único para cada elemento. Vue necesita ese identificador para saber qué elementos del HTML debe actualizar.
 
 
 ### Ejercicio #4

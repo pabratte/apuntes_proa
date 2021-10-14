@@ -15,6 +15,8 @@ function uuidv4() {
 ```
 Tomado de [StackOverflow](https://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid).
 
+* Es importante que, a la hora de renderizar los items con **v-for** se pase ese *id* al atributo :key, ya que Vue necesita distinguir de manera unívoca a cada elemento para saber cuál actualizar. 
+
 * En la interfaz, agregue al lado del nombre de cada item un botón que permita eliminarlo de la lista. Al hacer clic en el botón se debe llamar a la función deleteItem(itemId). La función recibe el *id* del item a eliminar y lo quita de la lista. Para eliminar un item de la lista se puede usar la siguiente función. 
 
 ```javascript
