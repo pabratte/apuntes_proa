@@ -6,4 +6,5 @@
 4. [Ejercicio #3 (conditional rendering)](cond_rendering.md)
 5. [Ejercicio #4 (list rendering)](list_rendering.md)
 6. [Ejercicio #5](shopping_list_quant.md)
-6. [Ejercicio #6](delete_items.md)
+7. [Ejercicio #6](delete_items.md)
+8. [Components](components.md)
