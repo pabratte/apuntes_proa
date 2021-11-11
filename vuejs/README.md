@@ -8,3 +8,4 @@
 6. [Ejercicio #5](shopping_list_quant.md)
 7. [Ejercicio #6](delete_items.md)
 8. [Components](components.md)
+8. [Ejercicio #8](ejercicio8.md)
