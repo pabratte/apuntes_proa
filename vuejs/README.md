@@ -1,5 +1,14 @@
 # Vuejs
 
+* [Descargar ejemplo base](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/pabratte/apuntes_proa/tree/master/vuejs/vue-base-example)
+* Pasos para compilar el ejemplo:
+	- Moverse a la carpeta del proyecto desde la consola con el comando `cd`
+	- Instalar dependencias (sólo hace falta una vez): `npm install`
+	- Compilar y correr servidor: `npm run dev`
+
+
+## Ejercicios
+
 1. [Introducción](intro.md)
 2. [Ejercicio #1 (text interpolation & two way data binding)](interp_data_binding.md)
 3. [Ejercicio #2 (eventos)](events.md)
