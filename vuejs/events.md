@@ -23,9 +23,11 @@ export default {
       name: "Juan"
     }
   },
-  methods: onClick(){
-    alert("Clic en el botón")
-    this.name = "Pablo"
+  methods: {
+    onClick(){
+      alert("Clic en el botón")
+      this.name = "Pablo"
+    }
   }
 }
 </script>
